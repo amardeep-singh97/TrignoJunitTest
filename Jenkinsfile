@@ -11,7 +11,7 @@ pipeline {
   
     stage('Build') {
             steps {
-                bat 'cd src/javac -cp "../lib/junit-platform-console-standalone-1.7.0-all.jar" TrignometryTestClass.java TrignometryFunctions.java '
+                bat 'cd src/javac -cp "src/lib/junit-platform-console-standalone-1.7.0-all.jar" TrignometryTestClass.java TrignometryFunctions.java '
               }
         }
 
